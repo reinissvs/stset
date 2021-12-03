@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="lv">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,33 @@
     <title>Document</title>
 </head>
 <body>
-    <p>
-       
-    </p>
+<div class=kaste>
+    <h1>Pieteikuma anketa html nodarbībām.</h1>
+    <img src="Bildes/MazaBilde.webp" alt="attēls"> 
+<p>
+    <h3>Ievadi datus par sevi:</h3>
+</p>
+<form>
+    <label for="vards"> vārds:</label>
+    <input type="text" name="vards" >
+<br></br>
+    <lable for="uzvards">uzvārds:</lable>  
+    <input type="text" name="uzvards" >      
+<br><br>
+    <label for="vecums">vecums:</label>
+    <select name="vecums" >
+        <option value="10-12">10-12 gadi</option>
+        <option value="13-16">13-16 gadi</option>
+        <option value="17-19">17-19 gadi</option>        
+    </select>
+    <br><br>
+        <label for="papildus">Apgūšu arī JavaScript</label>
+        <input type="checkbox" name="papildus" unchecked>
+    </form>
+    <br><br>
+    <hr>
+    <br><br>
+    <button type="button" href="index.html">Iesniegt pieteikumu</button>
+   </div>
 </body>
 </html>

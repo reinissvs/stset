@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(124, 134, 138);
+}
+.arejakaste{
+   /*padding: 5%;*/
+   margin-left:10%;
+   margin-right: 10%;
+   margin-top: 5%;
+   border-style: solid;
+   border-color: black;
+   background-color: lightblue;
+   /*display: flex;*/
+}
+
+
+.centrets{
+    max-width: 300px;
+    display: block;
+    margin: auto;
+    border-style: solid;
+    border-color: red;    
+}
+#bilde{
+	width:100%;
+}
+p{
+text-align: center;
+}
